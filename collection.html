@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOSTRA</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <h2>NOSTRA</h2>
+        <div class="navbar__menu">
+            <img src="./images/menu.png" id="menu">
+        </div>
+        <div class="navbar__sec2">
+            <ul>
+                <li style="list-style: none;"><a href="index.html">Home</a></li>
+                <li style="list-style: none;"><a href="collection.html">Collections</a></li>
+                <li style="list-style: none;"><a href="contact us.html"> Contact us</a> </li>
+            </ul>
+        </div>
+    </div>
+     <div class="sidenav">
+        <p class="sidenav__btn" id="sidenavbtn">X</p>
+        <ul>
+            <li style="list-style: none;"><a href="index.html">Home</a></li>
+            <li style="list-style: none;"><a href="collection.html">Collections</a></li>
+            <li style="list-style: none;"><a href="contact us.html"> Contact us </a></li>
+        </ul>
+    </div>
+    <div class="header">
+        <h1>Our Collections</h1>
+        <p>Discover your next favourite style.</p>
+    </div>
+    <div class="categories" id="categories">
+        <div class="categories__filter">
+            <h3>Find Your Style</h3>
+            <form>
+                <label>Search products</label><br><br><input id="item" class="categories__filter__one" type="text"
+                    placeholder=" Search by product name"><br><br><br>
+                <label>Category</label><br><br>
+                <select id="type">
+                    <option class="categories__filter__options">All Categories</option>
+                    <option class="categories__filter__options">Men</option>
+                    <option class="categories__filter__options">Women</option>
+                    <option class="categories__filter__options">Accessories</option>
+                </select><br><br><br>
+                <label>Price Range</label><br><br>
+                <select id="price">
+                    <option class="categories__filter__options">All Prices</option>
+                    <option class="categories__filter__options">Under ₹500</option>
+                    <option class="categories__filter__options">₹500 - ₹1000</option>
+                    <option class="categories__filter__options">₹1000 - ₹1500</option>
+                    <option class="categories__filter__options">₹1500 - ₹2000</option>
+                </select><br><br>
+                <button>Clear Filter</button>
+            </form>
+        </div>
+        <div class="categories__products">
+            <h3>ALL PRODUCTS</h3>
+            <DIV class="categories__products__buy" id="list">
+                <div class="categories__products__buy__one">
+                    <img src="./images/productimage1.avif">
+                    <h5>MEN</h5>
+                    <h6>Classic White T-Shirt</h6>
+                    <h6>₹599</h6>
+                </div>
+                <div class="categories__products__buy__two">
+                    <img src="./images/productimage2.avif">
+                    <h5>MEN</h5>
+                    <h6>Black Casual T-Shirt</h6>
+                    <h6>₹899</h6>
+                </div>
+                <div class="categories__products__buy__three">
+                    <img src="./images/producimage3.avif">
+                    <h5>WOMEN</h5>
+                    <h6>Everyday Style Top</h6>
+                    <h6>₹799</h6>
+                </div>
+                <div class="categories__products__buy__four">
+                    <img src="./images/productimage4.avif">
+                    <h5>ACCESSORIES</h5>
+                    <h6>Everyday Handbag</h6>
+                    <h6>₹999</h6>
+                </div>
+                <div class="categories__products__buy__five">
+                    <img src="./images/productimage5.avif">
+                    <h5>ACCESSORIES</h5>
+                    <h6>Classic Wallet</h6>
+                    <h6>₹699</h6>
+                </div>
+                <div class="categories__products__buy__six">
+                    <img src="./images/productimage6.avif">
+                    <h5>WOMEN</h5>
+                    <h6>Urban Casual Outfit</h6>
+                    <h6>₹1,699</h6>
+                </div>
+                <div class="categories__products__buy__seven">
+                    <img src="./images/productimage7.avif">
+                    <h5>WOMEN</h5>
+                    <h6>Casual Denim Jeans</h6>
+                    <h6>₹1,299</h6>
+                </div>
+                <div class="categories__products__buy__eight">
+                    <img src="./images/productimage8.avif">
+                    <h5>WOMEN</h5>
+                    <h6>Summer Floral Dress</h6>
+                    <h6>₹1,499</h6>
+                </div>
+                <div class="categories__products__buy__nine">
+                    <img src="./images/productimage9.avif">
+                    <h5>ACCESSORIES</h5>
+                    <h6>Classic Sunglasses</h6>
+                    <h6>₹399</h6>
+                </div>
+                <div class="categories__products__buy__ten">
+                    <img src="./images/productimage10.avif">
+                    <h5>MEN</h5>
+                    <h6>Casual Denim Jacket</h6>
+                    <h6>₹2,499</h6>
+                </div>
+                <div class="categories__products__buy__eleven">
+                    <img src="./images/productimage11.avif">
+                    <h5>WOMEN</h5>
+                    <h6>Everyday Fashion Wear</h6>
+                    <h6>₹499</h6>
+                </div>
+                <div class="categories__products__buy__twelve">
+                    <img src="./images/productimage12.avif">
+                    <h5>ACCESSORIES</h5>
+                    <h6>Classic Wristwatch</h6>
+                    <h6>₹1,499</h6>
+                </div>
+            </DIV>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>NOSTRA</h2>
+        <p>Your style, your choice, your Nostra.</p>
+        <p>&copy; 2026 Nostra. All rights reserved.</p>
+    </div>
+    <script src="collection.js"></script>
+</body>
+
+</html>
